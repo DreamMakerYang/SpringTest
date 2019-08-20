@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="day1_annotation_ioc" />
+        <module name="day1_ioc" />
+        <module name="day1_ioc_example" />
+        <module name="day1_ioc_example_withoutxml" />
+        <module name="day2_aop_annotation" />
+        <module name="day2_jdbcTemplate" />
+        <module name="day2_tx_annotation" />
+      </profile>
+      <profile name="Annotation profile for day2_tx" enabled="true">
+        <sourceOutputDir name="../day2_jdbcTemplate/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../day2_jdbcTemplate/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="day2_tx" />
+      </profile>
+      <profile name="Annotation profile for springtest" enabled="true">
+        <sourceOutputDir name="../day2_aop_annotation/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../day2_aop_annotation/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="day2_aop" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
